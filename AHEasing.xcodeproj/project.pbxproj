@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48606C051A0CE3A400E8BB19 /* UIView+Easing.m in Sources */ = {isa = PBXBuildFile; fileRef = 48606C041A0CE3A400E8BB19 /* UIView+Easing.m */; };
+		48606C061A0CE3A400E8BB19 /* UIView+Easing.m in Sources */ = {isa = PBXBuildFile; fileRef = 48606C041A0CE3A400E8BB19 /* UIView+Easing.m */; };
 		8045277616A63161001DB532 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806EB7EF138F91A700E2D4A7 /* UIKit.framework */; };
 		8045277716A63161001DB532 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806EB7F1138F91A700E2D4A7 /* Foundation.framework */; };
 		8045277816A63161001DB532 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806EB7F3138F91A700E2D4A7 /* CoreGraphics.framework */; };
@@ -39,6 +41,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48606C031A0CE3A400E8BB19 /* UIView+Easing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Easing.h"; sourceTree = "<group>"; };
+		48606C041A0CE3A400E8BB19 /* UIView+Easing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Easing.m"; sourceTree = "<group>"; };
 		8045277516A63161001DB532 /* EasingPlayground-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EasingPlayground-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8045277B16A63161001DB532 /* EasingPlayground-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasingPlayground-iOS-Info.plist"; sourceTree = "<group>"; };
 		8045277D16A63161001DB532 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -179,6 +183,8 @@
 				80521A791398175D007386E6 /* CAKeyframeAnimation+AHEasing.m */,
 				806EB829138F91C700E2D4A7 /* easing.h */,
 				806EB828138F91C700E2D4A7 /* easing.c */,
+				48606C031A0CE3A400E8BB19 /* UIView+Easing.h */,
+				48606C041A0CE3A400E8BB19 /* UIView+Easing.m */,
 			);
 			path = AHEasing;
 			sourceTree = "<group>";
@@ -317,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				804527D416A67C89001DB532 /* EasingFunctionGraphView.m in Sources */,
+				48606C051A0CE3A400E8BB19 /* UIView+Easing.m in Sources */,
 				804527B216A634DD001DB532 /* CAKeyframeAnimation+AHEasing.m in Sources */,
 				804527B316A634DD001DB532 /* easing.c in Sources */,
 				8045278016A63161001DB532 /* main.m in Sources */,
@@ -330,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				804527B416A634E1001DB532 /* CAKeyframeAnimation+AHEasing.m in Sources */,
+				48606C061A0CE3A400E8BB19 /* UIView+Easing.m in Sources */,
 				804527B516A634E1001DB532 /* easing.c in Sources */,
 				8045279C16A6318C001DB532 /* main.m in Sources */,
 				804527A316A6318C001DB532 /* AppDelegate.m in Sources */,

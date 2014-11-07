@@ -13,6 +13,7 @@
 #import "PlaygroundViewController.h"
 #import <QuartzCore/QuartzCore.h>
 #import "CAKeyframeAnimation+AHEasing.h"
+#import "UIView+Easing.h"
 
 @implementation PlaygroundViewController
 
@@ -57,6 +58,13 @@
 		[self.boid setCenter:targetCenter];
 		
 		animating = YES;
+        
+        
+/* Same thing can be achieved by using the UIView+Easing Helper */
+//        [self.boid animateToCenter:targetCenter duration:0.75f easingFunction:currentFunction completion:^{
+//            animating = NO;
+//        }];
+        
 	}
 }
 
